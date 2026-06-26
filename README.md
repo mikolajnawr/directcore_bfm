@@ -9,8 +9,8 @@ W oryginalnym rozwiazaniu Microsemi DirectCore, testy definiuje sie w plikach te
 
 Niniejszy projekt przenosi te idee do srodowiska Aldec, oferujac nastepujaca skladnie w folderze scripts/:
 
-- WRITE [adres_hex] [dane_hex] - Wykonuje transakcje zapisu AXI4.
-- READ [adres_hex] - Wykonuje transakcje odczytu AXI4.
+- WRITE [adres_hex] [dane_hex] - Wykonuje zapis AXI4.
+- READ [adres_hex] - Wykonuje odczyt AXI4.
 - WAIT [liczba_cykli] - Wstrzymuje interpreter o zadana liczbe taktow zegara.
 
 ### Przykladowy plik testowy (test_v1.txt):
