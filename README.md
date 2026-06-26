@@ -12,14 +12,12 @@ Niniejszy projekt przenosi te idee do srodowiska Aldec, oferujac nastepujaca skl
 - WRITE [adres_hex] [dane_hex] - Wykonuje transakcje zapisu AXI4.
 - READ [adres_hex] - Wykonuje transakcje odczytu AXI4.
 - WAIT [liczba_cykli] - Wstrzymuje interpreter o zadana liczbe taktow zegara.
-- # - Komentarz (linia ignorowana).
 
 ### Przykladowy plik testowy (test_v1.txt):
-# Prosty test zapisu i odczytu pamieci
-WRITE 000000A0 DEADBEEF
-WAIT 10
-READ 000000A0
-WAIT 20
+- WRITE 000000A0 DEADBEEF
+- WAIT 10
+- READ 000000A0
+- WAIT 20
 
 ## Weryfikacja i Wyniki (Waveforms)
 
