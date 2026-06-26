@@ -1,0 +1,36 @@
+# --- Pliki binarne i biblioteki symulatora (z Twojego screena) ---
+*.lib
+*.info
+*.gen
+*.so
+*.log
+*.rep
+*.ext
+*.tms
+*.cli
+*.itf
+*.mgf
+elaboration.log
+
+# --- Foldery robocze symulatora ---
+sim/work/
+sim/compile/
+work/
+
+# --- Pliki baz danych Waveform ---
+*.asdb
+*.asdbw
+*.dataset
+*.tmp
+
+# --- Konfiguracja lokalna srodowiska Aldec ---
+*.rwsp
+*.rdsn
+library.cfg
+dataset.asdb
+
+# --- Pliki IP ALDEC (Licencja) ---
+aldec_bfm/
+
+# --- Systemowe ---
+.DS_Store
